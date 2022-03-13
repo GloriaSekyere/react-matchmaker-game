@@ -26,6 +26,12 @@ function App() {
     setCards(shuffledCards)
     setTurns(0)
   }
+
+  const resetTurn = () => {
+    setChoiceOne(null)
+    setChoiceOne(null)
+    setTurns(prevTurns => prevTurns + 1)
+  }
   
   return (
     <div className="App">
