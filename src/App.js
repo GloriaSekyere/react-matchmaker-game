@@ -21,11 +21,11 @@ function App() {
 
     setCards(shuffledCards)
   }
-
+  
   return (
     <div className="App">
       <h1>Magic Match</h1>
-      <button>New Game</button>
+      <button onClick={shuffleCards}>New Game</button>
     </div>
   );
 }
