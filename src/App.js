@@ -27,6 +27,10 @@ function App() {
     setTurns(0)
   }
 
+  const handleChoice = (card) => {
+    choiceOne ? setChoiceTwo(card) : setChoiceOne(card)
+  }
+
   const resetTurn = () => {
     setChoiceOne(null)
     setChoiceOne(null)
@@ -40,7 +44,11 @@ function App() {
 
       <div className='cards'>
         {cards.map(card => (
-          <SingleCard key={card.id} card={card} />
+          <SingleCard 
+            key={card.id} 
+            card={card}
+            handleChoice={handleChoice} 
+          />
         ))}
       </div>
     </div>
