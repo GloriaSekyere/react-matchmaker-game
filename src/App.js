@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     shuffleCards()
   }, [])
-  
+
   useEffect(() => {
     if (choiceOne && choiceTwo) {
       setDisabled(true)
@@ -80,6 +80,8 @@ function App() {
           />
         ))}
       </div>
+
+      <div>Turns: {turns}</div>
     </div>
   );
 }
