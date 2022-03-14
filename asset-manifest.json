@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-matchmaker-game/static/css/main.ee93f8ad.chunk.css",
-    "main.js": "/react-matchmaker-game/static/js/main.eeddd201.chunk.js",
-    "main.js.map": "/react-matchmaker-game/static/js/main.eeddd201.chunk.js.map",
-    "runtime-main.js": "/react-matchmaker-game/static/js/runtime-main.147132dc.js",
-    "runtime-main.js.map": "/react-matchmaker-game/static/js/runtime-main.147132dc.js.map",
-    "static/js/2.4bd328cf.chunk.js": "/react-matchmaker-game/static/js/2.4bd328cf.chunk.js",
-    "static/js/2.4bd328cf.chunk.js.map": "/react-matchmaker-game/static/js/2.4bd328cf.chunk.js.map",
-    "index.html": "/react-matchmaker-game/index.html",
-    "static/css/main.ee93f8ad.chunk.css.map": "/react-matchmaker-game/static/css/main.ee93f8ad.chunk.css.map",
-    "static/js/2.4bd328cf.chunk.js.LICENSE.txt": "/react-matchmaker-game/static/js/2.4bd328cf.chunk.js.LICENSE.txt"
+    "main.css": "./static/css/main.d34293cc.chunk.css",
+    "main.js": "./static/js/main.eeddd201.chunk.js",
+    "main.js.map": "./static/js/main.eeddd201.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.02d674e6.js",
+    "runtime-main.js.map": "./static/js/runtime-main.02d674e6.js.map",
+    "static/js/2.4bd328cf.chunk.js": "./static/js/2.4bd328cf.chunk.js",
+    "static/js/2.4bd328cf.chunk.js.map": "./static/js/2.4bd328cf.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.d34293cc.chunk.css.map": "./static/css/main.d34293cc.chunk.css.map",
+    "static/js/2.4bd328cf.chunk.js.LICENSE.txt": "./static/js/2.4bd328cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.147132dc.js",
+    "static/js/runtime-main.02d674e6.js",
     "static/js/2.4bd328cf.chunk.js",
-    "static/css/main.ee93f8ad.chunk.css",
+    "static/css/main.d34293cc.chunk.css",
     "static/js/main.eeddd201.chunk.js"
   ]
 }
