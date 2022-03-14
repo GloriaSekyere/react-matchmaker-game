@@ -20,6 +20,10 @@ function App() {
   const [disabled, setDisabled] = useState(false)
 
   useEffect(() => {
+    shuffleCards()
+  }, [])
+  
+  useEffect(() => {
     if (choiceOne && choiceTwo) {
       setDisabled(true)
       if (choiceOne.src === choiceTwo.src) {
