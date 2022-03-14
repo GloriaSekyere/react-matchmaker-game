@@ -48,6 +48,11 @@ button:hover {
     margin-top: 15px;
   }
 
+  button:hover {
+    background: transparent;
+    color: #fff;
+  }
+
   .cards {
     margin: 20px 0;
     display: grid;

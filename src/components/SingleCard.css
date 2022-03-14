@@ -18,3 +18,13 @@
   transform: rotateY(90deg);
   transition-delay: 0s;
 }
+
+@media screen and (max-width: 896px) {
+  .front {
+    position: absolute;
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    width: 90px;
+    height: 90px;
+  }
+}
