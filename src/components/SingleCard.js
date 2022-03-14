@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './SingleCard.css';
 
 const SingleCard = ({ card, handleChoice, flipped }) => {
 

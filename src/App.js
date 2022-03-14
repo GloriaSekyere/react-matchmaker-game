@@ -36,7 +36,6 @@ function App() {
         resetTurn()
       }
     }
-    console.log(cards)
   }, [choiceOne, choiceTwo])
 
   const shuffleCards = () => {
