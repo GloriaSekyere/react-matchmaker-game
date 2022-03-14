@@ -32,7 +32,7 @@ function App() {
             }
           })
         })
-        resetTurn()
+        setTimeout(() => resetTurn(), 1000)
       } 
       else {
         setTimeout(() => resetTurn(), 1000)
