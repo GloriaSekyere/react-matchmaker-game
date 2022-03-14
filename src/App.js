@@ -21,11 +21,22 @@ function App() {
   useEffect(() => {
     if (choiceOne && choiceTwo) {
       if (choiceOne.src === choiceTwo.src) {
+        setCards(prevCards => {
+          return prevCards.map(card => {
+            if (card.src === choiceOne.src) {
+              return {...card, matched: true}
+            } else {
+              return card
+            }
+          })
+        })
         resetTurn()
-      } else {
+      } 
+      else {
         resetTurn()
       }
     }
+    console.log(cards)
   }, [choiceOne, choiceTwo])
 
   const shuffleCards = () => {
